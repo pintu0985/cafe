@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy Lights House Cafe Ajmer | Cozy Cafe in Ajmer</title>
+    <meta name="description" content="Welcome to Fairy Lights House Cafe Ajmer. A cozy, romantic cafe in Ajmer offering warm fairy light ambience, delicious artisan food, specialty coffee, and unforgettable evenings.">
+    <link rel="canonical" href="https://fairylightscafe.example.com/">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fairy Lights House Cafe Ajmer | Cozy Cafe in Ajmer">
+    <meta property="og:description" content="Where every evening feels like magic. Enjoy delicious food, specialty coffee and warm fairy lights in Ajmer, Rajasthan.">
+    <meta property="og:image" content="assets/images/hero-cafe.jpg">
+    <meta property="og:url" content="https://fairylightscafe.example.com/">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Fairy Lights House Cafe Ajmer",
+      "telephone": "+918955716377",
+      "image": "assets/images/hero-cafe.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Reliance Tower, Samrat School, Tiwari Flour Mill, Pasand Nagar Kotra, Haribhau Upadhyay Nagar",
+        "addressLocality": "Ajmer",
+        "addressRegion": "Rajasthan",
+        "postalCode": "305004",
+        "addressCountry": "IN"
+      },
+      "servesCuisine": ["Cafe", "Italian", "Continental", "Fast Food", "Beverages"],
+      "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Ambient Fairy Lights Particle Canvas -->
+    <canvas id="fairyLightsCanvas" class="fairy-light-canvas"></canvas>
+
+    <!-- Global Navigation -->
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="container nav-container">
+                <a href="index.html" class="nav-brand" aria-label="Fairy Lights House Cafe Home">
+                    <svg class="nav-logo-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                    </svg>
+                    <div class="nav-brand-text">
+                        <span class="nav-brand-title">Fairy Lights House</span>
+                        <span class="nav-brand-subtitle">Cafe • Ajmer</span>
+                    </div>
+                </a>
+
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="menu.html" class="nav-link">Menu</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="ambience.html" class="nav-link">Ambience</a>
+                    <a href="reservations.html" class="nav-link">Reservations</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="reservations.html" class="btn btn-primary btn-sm">Reserve a Table</a>
+                    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Drawer Overlay & Menu -->
+    <div class="mobile-nav-overlay" aria-hidden="true"></div>
+    <div class="mobile-nav" role="dialog" aria-label="Mobile Menu">
+        <div class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link active">Home</a>
+            <a href="about.html" class="mobile-nav-link">About</a>
+            <a href="menu.html" class="mobile-nav-link">Menu</a>
+            <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+            <a href="ambience.html" class="mobile-nav-link">Ambience</a>
+            <a href="reservations.html" class="mobile-nav-link">Reservations</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+            <a href="location.html" class="mobile-nav-link">Find Us</a>
+        </div>
+        <div class="mobile-nav-cta">
+            <a href="reservations.html" class="btn btn-primary" style="width: 100%;">Reserve a Table</a>
+            <a href="tel:+918955716377" class="btn btn-secondary" style="width: 100%;">Call: +91 89557 16377</a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+        <!-- Cinematic Hero -->
+        <section class="hero" style="background-image: url('assets/images/hero-cafe.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-location-pill reveal">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    Ajmer, Rajasthan
+                </div>
+                <div class="section-tag reveal reveal-delay-1">WELCOME TO FAIRY LIGHTS HOUSE</div>
+                <h1 class="hero-title reveal reveal-delay-2">Where Every Evening Feels Like a Little Magic</h1>
+                <p class="hero-desc reveal reveal-delay-3">
+                    A cozy café experience in Ajmer, crafted for delicious food, beautiful moments and unforgettable evenings under the warm glow of fairy lights.
+                </p>
+                <div class="hero-buttons reveal reveal-delay-3">
+                    <a href="menu.html" class="btn btn-primary btn-lg">Explore Menu</a>
+                    <a href="reservations.html" class="btn btn-secondary btn-lg">Reserve a Table</a>
+                </div>
+            </div>
+            <div class="hero-scroll-down">
+                <span>Scroll</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="section section-dark">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-tag">OUR ESSENCE</div>
+                    <h2>More Than Just a Café</h2>
+                    <p>
+                        Fairy Lights House Cafe Ajmer is a cozy destination where delicious food, warm lighting and beautiful moments come together to create genuine memories.
+                    </p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon-wrapper">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                        </div>
+                        <h3 class="feature-title">Cozy Ambience</h3>
+                        <p class="feature-desc">A warm and inviting atmosphere wrapped in soft golden fairy lights, soothing acoustic melodies, and comfortable corners.</p>
+                    </div>
+
+                    <div class="feature-card reveal reveal-delay-1">
+                        <div class="feature-icon-wrapper">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                        </div>
+                        <h3 class="feature-title">Delicious Food</h3>
+                        <p class="feature-desc">Something delicious for every mood — handcrafted pizzas, creamy pastas, gourmet burgers, specialty beverages, and luscious desserts.</p>
+                    </div>
+
+                    <div class="feature-card reveal reveal-delay-2">
+                        <div class="feature-icon-wrapper">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Beautiful Moments</h3>
+                        <p class="feature-desc">A place to create memorable evenings. Ideal for romantic date nights, lively family dinners, and cheerful celebrations in Ajmer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Menu Preview -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-tag">TASTE THE MAGIC</div>
+                    <h2>Something Delicious Is Waiting</h2>
+                    <p>Explore a sneak peek of our handcrafted café selections, carefully prepared with fresh ingredients and culinary passion.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <!-- Featured Item 1 -->
+                    <div class="menu-card reveal">
+                        <div class="menu-card-img-wrapper">
+                            <img src="assets/images/pizza.jpg" alt="Artisan Margherita Pizza" loading="lazy">
+                            <span class="menu-card-badge">Chef's Pick</span>
+                            <span class="veg-indicator" title="Vegetarian"></span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-header">
+                                <h3 class="menu-card-title">Artisan Basil Pizza</h3>
+                                <span class="menu-card-price">₹280</span>
+                            </div>
+                            <p class="menu-card-desc">Thin hand-stretched crust topped with rich San Marzano tomato sauce, mozzarella, and fresh garden basil.</p>
+                            <span class="menu-card-category">Pizza</span>
+                        </div>
+                    </div>
+
+                    <!-- Featured Item 2 -->
+                    <div class="menu-card reveal reveal-delay-1">
+                        <div class="menu-card-img-wrapper">
+                            <img src="assets/images/pasta.jpg" alt="Creamy Alfredo Fettuccine" loading="lazy">
+                            <span class="menu-card-badge">Popular</span>
+                            <span class="veg-indicator" title="Vegetarian"></span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-header">
+                                <h3 class="menu-card-title">Creamy Alfredo Pasta</h3>
+                                <span class="menu-card-price">₹260</span>
+                            </div>
+                            <p class="menu-card-desc">Velvety parmesan cream reduction with garlic infused butter, herbs, and tender pasta ribbons.</p>
+                            <span class="menu-card-category">Pasta</span>
+                        </div>
+                    </div>
+
+                    <!-- Featured Item 3 -->
+                    <div class="menu-card reveal reveal-delay-2">
+                        <div class="menu-card-img-wrapper">
+                            <img src="assets/images/coffee.jpg" alt="Signature Espresso Latte" loading="lazy">
+                            <span class="menu-card-badge">Must Try</span>
+                            <span class="veg-indicator" title="Vegetarian"></span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-header">
+                                <h3 class="menu-card-title">Signature Fairy Latte</h3>
+                                <span class="menu-card-price">₹160</span>
+                            </div>
+                            <p class="menu-card-desc">Freshly ground specialty espresso poured over silky steamed milk with delicate artisanal latte art.</p>
+                            <span class="menu-card-category">Coffee</span>
+                        </div>
+                    </div>
+
+                    <!-- Featured Item 4 -->
+                    <div class="menu-card reveal reveal-delay-3">
+                        <div class="menu-card-img-wrapper">
+                            <img src="assets/images/dessert.jpg" alt="Molten Chocolate Lava Cake" loading="lazy">
+                            <span class="menu-card-badge">Signature</span>
+                            <span class="veg-indicator" title="Vegetarian"></span>
+                        </div>
+                        <div class="menu-card-body">
+                            <div class="menu-card-header">
+                                <h3 class="menu-card-title">Molten Lava Bliss</h3>
+                                <span class="menu-card-price">₹220</span>
+                            </div>
+                            <p class="menu-card-desc">Warm Belgian chocolate cake with a molten center, accompanied by vanilla bean gelato.</p>
+                            <span class="menu-card-category">Desserts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 48px;" class="reveal">
+                    <a href="menu.html" class="btn btn-primary btn-lg">View Full Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cinematic Ambience Spotlight -->
+        <section class="section section-dark">
+            <div class="container">
+                <div class="ambience-spotlight reveal">
+                    <div class="ambience-spotlight-bg">
+                        <img src="assets/images/cozy-corner.jpg" alt="Cozy evening fairy lights corner in Fairy Lights House Cafe" loading="lazy">
+                    </div>
+                    <div class="ambience-spotlight-overlay"></div>
+                    <div class="ambience-spotlight-content">
+                        <div class="section-tag">THE VIBE</div>
+                        <h2>Step Into the Glow</h2>
+                        <p style="margin: 18px 0 28px; font-size: 1.05rem;">
+                            Warm lights, cozy corners and an atmosphere made for beautiful evenings. Fairy Lights House Cafe creates a sanctuary where time slows down.
+                        </p>
+                        <a href="ambience.html" class="btn btn-primary">Explore Ambience</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Moments Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-tag">MEMORABLE EXPERIENCES</div>
+                    <h2>Crafted for Every Occasion</h2>
+                    <p>From romantic evenings to fun gatherings with friends and joyful milestone celebrations in Ajmer.</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="moment-card reveal">
+                        <img src="assets/images/date-night.jpg" alt="Romantic date night at Fairy Lights House Cafe Ajmer" loading="lazy">
+                        <div class="moment-card-overlay">
+                            <h3 class="moment-card-title">Date Nights</h3>
+                            <p class="moment-card-desc">An intimate and romantic setting with soft fairy lights and warm candlelight for special evenings.</p>
+                        </div>
+                    </div>
+
+                    <div class="moment-card reveal reveal-delay-1">
+                        <img src="assets/images/friends-cafe.jpg" alt="Friends gathering at Fairy Lights House Cafe" loading="lazy">
+                        <div class="moment-card-overlay">
+                            <h3 class="moment-card-title">Friends & Family</h3>
+                            <p class="moment-card-desc">Generous platters, comfortable lounge seating, and laughter that turns into cherished memories.</p>
+                        </div>
+                    </div>
+
+                    <div class="moment-card reveal reveal-delay-2">
+                        <img src="assets/images/celebration.jpg" alt="Celebrations and birthdays at Fairy Lights House Cafe" loading="lazy">
+                        <div class="moment-card-overlay">
+                            <h3 class="moment-card-title">Celebrations</h3>
+                            <p class="moment-card-desc">Birthdays, anniversaries, and milestones decorated with golden warmth and bespoke cafe hospitality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Carousel -->
+        <section class="section section-dark">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-tag">COMMUNITY PRAISE</div>
+                    <h2>Loved By Our Guests</h2>
+                    <p>Sample reviews from our warm community of cafe lovers and evening visitors in Ajmer.</p>
+                </div>
+
+                <div class="testimonial-carousel reveal">
+                    <div class="testimonial-track">
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">★★★★★</div>
+                                <blockquote class="testimonial-quote">
+                                    "The fairy lights create such a magical vibe at night! One of the most photogenic and peaceful cafes near Kotra in Ajmer. The pasta and latte were top notch."
+                                </blockquote>
+                                <div class="testimonial-author">Aarav Sharma</div>
+                                <div class="testimonial-role">Local Guest • Ajmer</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">★★★★★</div>
+                                <blockquote class="testimonial-quote">
+                                    "We celebrated our anniversary here and the cozy corners with glowing lights made it truly memorable. Warm hospitality and delicious thin crust pizza!"
+                                </blockquote>
+                                <div class="testimonial-author">Pooja & Rohan Mehta</div>
+                                <div class="testimonial-role">Celebration Guests</div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">★★★★★</div>
+                                <blockquote class="testimonial-quote">
+                                    "Finally a cafe in Ajmer that gets both the aesthetic and the food right. Perfect for long conversations over mocktails and warm desserts."
+                                </blockquote>
+                                <div class="testimonial-author">Simran Rathore</div>
+                                <div class="testimonial-role">Coffee Enthusiast</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-controls">
+                        <button class="carousel-btn prev" aria-label="Previous review">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <div class="carousel-dots"></div>
+                        <button class="carousel-btn next" aria-label="Next review">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Reservation CTA Section -->
+        <section class="section section-alt" style="text-align: center; border-top: 1px solid var(--border-subtle);">
+            <div class="container reveal">
+                <div class="section-tag">EXPERIENCE THE MAGIC</div>
+                <h2 style="margin-bottom: 16px;">Your Next Beautiful Evening Starts Here</h2>
+                <p style="max-width: 600px; margin: 0 auto 36px; font-size: 1.1rem;">
+                    Come for the food. Stay for the ambience. Leave with memories. Plan your table reservation in seconds.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+                    <a href="reservations.html" class="btn btn-primary btn-lg">Reserve Your Table</a>
+                    <a href="tel:+918955716377" class="btn btn-secondary btn-lg">Call: +91 89557 16377</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-brand" style="margin-bottom: 16px;">
+                        <svg class="nav-logo-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <div class="nav-brand-text">
+                            <span class="nav-brand-title">Fairy Lights House</span>
+                            <span class="nav-brand-subtitle">Cafe • Ajmer</span>
+                        </div>
+                    </a>
+                    <p>
+                        A cozy café in Ajmer where warm lights, delicious food and beautiful moments come together for unforgettable evenings.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html" class="footer-link">Home</a>
+                        <a href="about.html" class="footer-link">Our Story</a>
+                        <a href="menu.html" class="footer-link">Food & Drinks</a>
+                        <a href="gallery.html" class="footer-link">Photo Gallery</a>
+                        <a href="ambience.html" class="footer-link">Ambience</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Visit & Reserve</h4>
+                    <div class="footer-links">
+                        <a href="reservations.html" class="footer-link">Reserve a Table</a>
+                        <a href="location.html" class="footer-link">Location & Directions</a>
+                        <a href="contact.html" class="footer-link">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Find Our Cafe</h4>
+                    <div class="footer-contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>Near Reliance Tower, Samrat School, Tiwari Flour Mill, Pasand Nagar Kotra, Haribhau Upadhyay Nagar, Ajmer, Rajasthan 305004</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <a href="tel:+918955716377" style="color: var(--gold); font-weight: 500;">+91 89557 16377</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 Fairy Lights House Cafe Ajmer. All Rights Reserved.</div>
+                <div style="font-size: 0.8rem;">Cozy Cafe in Ajmer, Rajasthan</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating Mobile Action Bar (<768px) -->
+    <aside class="mobile-action-bar" aria-label="Quick Actions">
+        <div class="mobile-action-grid">
+            <a href="tel:+918955716377" class="mobile-action-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Near+Reliance+Tower+Samrat+School+Tiwari+Flour+Mill+Pasand+Nagar+Kotra+Haribhau+Upadhyay+Nagar+Ajmer+Rajasthan+305004+India" target="_blank" rel="noopener noreferrer" class="mobile-action-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                <span>Directions</span>
+            </a>
+            <a href="reservations.html" class="mobile-action-btn reserve-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Reserve</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
