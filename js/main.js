@@ -1,16 +1,16 @@
 /**
- * FAIRY LIGHTS HOUSE CAFE AJMER — MAIN JAVASCRIPT
+ * THE AMBER GLOW CAFE AJMER — MAIN JAVASCRIPT
  * Warm • Elegant • Cozy • Premium • Magical
  */
 
 // 1. Central Business Configuration
 const business = {
-    name: "Fairy Lights House Cafe Ajmer",
+    name: "The Amber Glow Cafe",
     category: "Café",
-    phone: "+91 89557 16377",
-    phoneLink: "tel:+918955716377",
-    address: "Near Reliance Tower, Samrat School, Tiwari Flour Mill, Pasand Nagar Kotra, Haribhau Upadhyay Nagar, Ajmer, Rajasthan 305004, India",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Near+Reliance+Tower+Samrat+School+Tiwari+Flour+Mill+Pasand+Nagar+Kotra+Haribhau+Upadhyay+Nagar+Ajmer+Rajasthan+305004+India"
+    phone: "+91 1234567890",
+    phoneLink: "tel:+911234567890",
+    address: "Ajmer, Rajasthan, India",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ajmer+Rajasthan+India"
 };
 
 document.addEventListener('DOMContentLoaded', () => {

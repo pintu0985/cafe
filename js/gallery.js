@@ -1,5 +1,5 @@
 /**
- * FAIRY LIGHTS HOUSE CAFE AJMER — GALLERY & LIGHTBOX ENGINE
+ * THE AMBER GLOW CAFE AJMER — GALLERY & LIGHTBOX ENGINE
  * Categorized gallery with filtering and interactive modal lightbox.
  */
 
